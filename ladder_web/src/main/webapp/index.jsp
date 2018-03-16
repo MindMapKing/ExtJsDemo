@@ -6,7 +6,7 @@
 	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 	%>
 	<base href="<%=basePath%>">
-	<script type="text/javascript" charset="utf-8" src="js/extJs/resources/css/ext-all.css"></script>
+	<link rel="stylesheet" type="text/css" href="js/extJs/resources/css/ext-all.css"></link>
 	<script type="text/javascript" charset="utf-8" src="js/extJs/ext-all-debug.js"></script>
 	<script type="text/javascript" charset="utf-8" src="js/extJs/ext-lang-zh_CN.js"></script>
 	<script type="text/javascript" charset="utf-8" src="ExtJsTest.js"></script>
