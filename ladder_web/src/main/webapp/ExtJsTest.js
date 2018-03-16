@@ -1,3 +1,3 @@
 Ext.onReady(function(){
-	Ext.Msg.alert("这是标题!","这是内容");
+	Ext.Msg.alert("鎴戞槸鏍囬!","鎴戞槸鍐呭");
 })
